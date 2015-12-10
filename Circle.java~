@@ -1,4 +1,4 @@
-public class Circle extends Shape implements Area{
+public class Circle extends Shape{
 
     private double radius;
 
@@ -15,7 +15,4 @@ public class Circle extends Shape implements Area{
 	return "Circle "+getName()+" with radius of "+getRadius();
     }
 
-    public double getArea() {
-	return 3.141592653589719 * radius * radius; 
-    }
 }
