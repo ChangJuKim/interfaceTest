@@ -5,7 +5,7 @@ public class Sphere extends Circle implements Volume{
     }
 
     public String toString(){
-	return "FIXME!";
+	return "Sphere "+getName()+" of radius "+getRadius();
     }
 
     public double getVolume() {

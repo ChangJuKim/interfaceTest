@@ -12,7 +12,7 @@ public class Cylinder extends Circle implements Volume{
     }
 
     public String toString(){
-	return "FIXME!";
+	return "A cylinder of (radius, height) = ("+getRadius()+", "+height+")";
     }
 
     public double getVolume() {
